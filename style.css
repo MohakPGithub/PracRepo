@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@100&display=swap');
+html {
+    height: 100%;
+}
+
+body {
+
+
+background-image: linear-gradient(#FC5E55 ,#FA4083);
+font-family: 'Playfair Display', serif;
+
+color: white;
+
+}
+h1 {
+    font-size: 3rem;
+    /* color: black; */
+    margin-bottom: 1.25rem ;
+}
+
+
+.container {
+    width: 1024px;
+    /* background-color: rgb(18, 60, 12); */
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+header {
+    display: flex;
+    /* background-color:rgb(41, 96, 36) ; */
+  
+    justify-content: space-between;
+    /* min-height: 200px; */
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+
+section {
+    display: flex;
+    /* justify-content: space-between; */
+    
+
+    /* background-color:rgb(211, 26, 26) ;
+   */
+  
+  
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+  
+}
+
+.cards {
+    display: flex;
+    /* background-color: rgb(116, 240, 105) ; */
+    min-height: 300px;
+
+    text-align: center;
+    justify-content: space-between;
+   
+}
+.card1 {
+    background-image:url(image-background-card1.jpg) ;
+ 
+    min-height: 300px;
+    width: 30%;
+
+
+}
+.card2 {
+    background-image:url(image-background-card2.jpg) ;
+    min-height: 300px;
+    width: 30%;
+}
+.card3 {
+    background-image:url(image-background-card3.jpg) ;
+    
+
+    min-height: 300px;
+    width: 30%;
+
+}
+
+}
+.herobox1 {
+    flex:2;
+    padding-right: 100px;
+
+    /* background-color: cornflowerblue; */
+
+}
+.herobox2 {
+    flex:1 ;
+    /* background-color: mintcream;
+     */
+}
+p {
+    line-height: 1.75rem;
+    margin-bottom:0.5rem ;
+}
+.cards h1 {
+    font-size: 20px;
+}
